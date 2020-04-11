@@ -6,6 +6,7 @@ import stripAltName from './utils/stripAltName';
 import getAltName from './utils/getAltName';
 import sanitizeProvinceName from './utils/sanitizeProvinceName';
 import getProvinceCode from './utils/getProvinceCode';
+import getCityFullName from './utils/getCityFullName';
 
 export default async function getCitiesMunicipalities(provinces) {
   const result = await Axios.get('https://en.wikipedia.org/wiki/List_of_cities_and_municipalities_in_the_Philippines');
@@ -34,10 +35,13 @@ export default async function getCitiesMunicipalities(provinces) {
     const provinceCode = getProvinceCode(provinceName, provinces);
     const classification = sanitize($cells.eq(5).text());
 
+    const fullName = getCityFullName(name, classification);
+
     const isCapital = ($cells.eq(0).attr('style') || '').includes('border-width');
 
     citiesMunicipalities.push({
       name,
+      fullName,
       altName,
       province: provinceCode,
       classification,

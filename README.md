@@ -42,7 +42,37 @@ This library is following [ISO 3166-2:PH](https://en.wikipedia.org/wiki/ISO_3166
 
 This may be inconsistent with other data sources such as the [Philippine Standard Geographic Code (PSGC)](https://psa.gov.ph/classification/psgc/) of the Philippine Statistics Authority (PSA).
 
-### Cities and Municipalities Classification
+## Regions
+
+| Property | Description |
+| - | - |
+| code | ISO 3166-2:PH code |
+| name | English name |
+| nameTL | Tagalog name |
+| acronym | Acronym or roman number |
+
+## Provinces
+
+| Property | Description |
+| - | - |
+| code | ISO 3166-2:PH code |
+| name | English name |
+| altName | Alternative name, often its former name |
+| nameTL | Tagalog name |
+| region | ISO 3166-2:PH code of the province's region |
+
+## Cities and Municipalities
+
+| Property | Description |
+| - | - |
+| name | Name |
+| fullName | Complete name. All cities will have names end with "City" |
+| altName | Alternative name, often its former name |
+| province | ISO 3166-2:PH code of the city's / municipality's province |
+| classification | Classification of the city / municipality (see below) |
+| isCapital | Is the city / municipality the capital of the province |
+
+### Classification
 
 **Mun** - Municipalities
 
