@@ -1,5 +1,9 @@
 # ph-locations
 
+[![NPM version](https://img.shields.io/npm/v/ph-locations.svg)](https://www.npmjs.com/package/ph-locations)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/hyubs/ph-locations/master/LICENSE)
+
+
 Library of locations in the Philippines
 
 ## Usage
@@ -41,6 +45,9 @@ This may be inconsistent with other data sources such as the [Philippine Standar
 ### Cities and Municipalities Classification
 
 **Mun** - Municipalities
+
 **CC** - Component cities
+
 **ICC** - Independent component cities
+
 **HUC** - Highly urbanized cities
