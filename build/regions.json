@@ -1,0 +1,104 @@
+[
+  {
+    "code": "PH-14",
+    "name": "Autonomous Region in Muslim Mindanao",
+    "nameTL": "Nagsasariling Rehiyon ng Muslim sa Mindanaw",
+    "acronym": "ARMM"
+  },
+  {
+    "code": "PH-05",
+    "name": "Bicol",
+    "nameTL": "Rehiyon ng Bikol",
+    "acronym": "V"
+  },
+  {
+    "code": "PH-02",
+    "name": "Cagayan Valley",
+    "nameTL": "Rehiyon ng Lambak ng Kagayan",
+    "acronym": "II"
+  },
+  {
+    "code": "PH-40",
+    "name": "Calabarzon",
+    "nameTL": "Rehiyon ng Calabarzon",
+    "acronym": "IV-A"
+  },
+  {
+    "code": "PH-13",
+    "name": "Caraga",
+    "nameTL": "Rehiyon ng Karaga",
+    "acronym": "XIII"
+  },
+  {
+    "code": "PH-03",
+    "name": "Central Luzon",
+    "nameTL": "Rehiyon ng Gitnang Luson",
+    "acronym": "III"
+  },
+  {
+    "code": "PH-07",
+    "name": "Central Visayas",
+    "nameTL": "Rehiyon ng Gitnang Bisaya",
+    "acronym": "VII"
+  },
+  {
+    "code": "PH-15",
+    "name": "Cordillera Administrative Region",
+    "nameTL": "Rehiyon ng Administratibo ng Kordilyera",
+    "acronym": "CAR"
+  },
+  {
+    "code": "PH-11",
+    "name": "Davao",
+    "nameTL": "Rehiyon ng Dabaw",
+    "acronym": "XI"
+  },
+  {
+    "code": "PH-08",
+    "name": "Eastern Visayas",
+    "nameTL": "Rehiyon ng Silangang Bisaya",
+    "acronym": "VIII"
+  },
+  {
+    "code": "PH-01",
+    "name": "Ilocos",
+    "nameTL": "Rehiyon ng Iloko",
+    "acronym": "I"
+  },
+  {
+    "code": "PH-41",
+    "name": "Mimaropa",
+    "nameTL": "Rehiyon ng Mimaropa",
+    "acronym": "IV-B"
+  },
+  {
+    "code": "PH-00",
+    "name": "National Capital Region",
+    "nameTL": "Pambansang Punong Rehiyon",
+    "acronym": "NCR"
+  },
+  {
+    "code": "PH-10",
+    "name": "Northern Mindanao",
+    "nameTL": "Rehiyon ng Hilagang Mindanaw",
+    "acronym": "X"
+  },
+  {
+    "code": "PH-12",
+    "name": "Soccsksargen",
+    "nameTL": "Rehiyon ng Soccsksargen",
+    "acronym": "XII"
+  },
+  {
+    "code": "PH-06",
+    "name": "Western Visayas",
+    "nameTL": "Rehiyon ng Kanlurang Bisaya",
+    "acronym": "VI"
+  },
+  {
+    "code": "PH-09",
+    "name": "Zamboanga Peninsula",
+    "nameTL": "Rehiyon ng Tangway ng Sambuwangga",
+    "acronym": "IX"
+  }
+]

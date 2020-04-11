@@ -1,0 +1,569 @@
+[
+  {
+    "code": "PH-ABR",
+    "name": "Abra",
+    "altName": null,
+    "nameTL": "Abra",
+    "region": "PH-15"
+  },
+  {
+    "code": "PH-AGN",
+    "name": "Agusan del Norte",
+    "altName": null,
+    "nameTL": "Hilagang Agusan",
+    "region": "PH-13"
+  },
+  {
+    "code": "PH-AGS",
+    "name": "Agusan del Sur",
+    "altName": null,
+    "nameTL": "Timog Agusan",
+    "region": "PH-13"
+  },
+  {
+    "code": "PH-AKL",
+    "name": "Aklan",
+    "altName": null,
+    "nameTL": "Aklan",
+    "region": "PH-06"
+  },
+  {
+    "code": "PH-ALB",
+    "name": "Albay",
+    "altName": null,
+    "nameTL": "Albay",
+    "region": "PH-05"
+  },
+  {
+    "code": "PH-ANT",
+    "name": "Antique",
+    "altName": null,
+    "nameTL": "Antike",
+    "region": "PH-06"
+  },
+  {
+    "code": "PH-APA",
+    "name": "Apayao",
+    "altName": null,
+    "nameTL": "Apayaw",
+    "region": "PH-15"
+  },
+  {
+    "code": "PH-AUR",
+    "name": "Aurora",
+    "altName": null,
+    "nameTL": "Aurora",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-BAS",
+    "name": "Basilan",
+    "altName": null,
+    "nameTL": "Basilan",
+    "region": "PH-09"
+  },
+  {
+    "code": "PH-BAN",
+    "name": "Bataan",
+    "altName": null,
+    "nameTL": "Bataan",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-BTN",
+    "name": "Batanes",
+    "altName": null,
+    "nameTL": "Batanes",
+    "region": "PH-02"
+  },
+  {
+    "code": "PH-BTG",
+    "name": "Batangas",
+    "altName": null,
+    "nameTL": "Batangas",
+    "region": "PH-40"
+  },
+  {
+    "code": "PH-BEN",
+    "name": "Benguet",
+    "altName": null,
+    "nameTL": "Benget",
+    "region": "PH-15"
+  },
+  {
+    "code": "PH-BIL",
+    "name": "Biliran",
+    "altName": null,
+    "nameTL": "Biliran",
+    "region": "PH-08"
+  },
+  {
+    "code": "PH-BOH",
+    "name": "Bohol",
+    "altName": null,
+    "nameTL": "Bohol",
+    "region": "PH-07"
+  },
+  {
+    "code": "PH-BUK",
+    "name": "Bukidnon",
+    "altName": null,
+    "nameTL": "Bukidnon",
+    "region": "PH-10"
+  },
+  {
+    "code": "PH-BUL",
+    "name": "Bulacan",
+    "altName": null,
+    "nameTL": "Bulakan",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-CAG",
+    "name": "Cagayan",
+    "altName": null,
+    "nameTL": "Kagayan",
+    "region": "PH-02"
+  },
+  {
+    "code": "PH-CAN",
+    "name": "Camarines Norte",
+    "altName": null,
+    "nameTL": "Hilagang Kamarines",
+    "region": "PH-05"
+  },
+  {
+    "code": "PH-CAS",
+    "name": "Camarines Sur",
+    "altName": null,
+    "nameTL": "Timog Kamarines",
+    "region": "PH-05"
+  },
+  {
+    "code": "PH-CAM",
+    "name": "Camiguin",
+    "altName": null,
+    "nameTL": "Kamigin",
+    "region": "PH-10"
+  },
+  {
+    "code": "PH-CAP",
+    "name": "Capiz",
+    "altName": null,
+    "nameTL": "Kapis",
+    "region": "PH-06"
+  },
+  {
+    "code": "PH-CAT",
+    "name": "Catanduanes",
+    "altName": null,
+    "nameTL": "Katanduwanes",
+    "region": "PH-05"
+  },
+  {
+    "code": "PH-CAV",
+    "name": "Cavite",
+    "altName": null,
+    "nameTL": "Kabite",
+    "region": "PH-40"
+  },
+  {
+    "code": "PH-CEB",
+    "name": "Cebu",
+    "altName": null,
+    "nameTL": "Sebu",
+    "region": "PH-07"
+  },
+  {
+    "code": "PH-COM",
+    "name": "Compostela Valley",
+    "altName": "Davao de Oro",
+    "nameTL": "Lambak ng Kompostela",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-NCO",
+    "name": "Cotabato",
+    "altName": null,
+    "nameTL": "Kotabato",
+    "region": "PH-12"
+  },
+  {
+    "code": "PH-DAV",
+    "name": "Davao del Norte",
+    "altName": null,
+    "nameTL": "Hilagang Dabaw",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-DAS",
+    "name": "Davao del Sur",
+    "altName": null,
+    "nameTL": "Timog Dabaw",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-DVO",
+    "name": "Davao Occidental",
+    "altName": null,
+    "nameTL": "Kanlurang Dabaw",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-DAO",
+    "name": "Davao Oriental",
+    "altName": null,
+    "nameTL": "Silangang Dabaw",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-DIN",
+    "name": "Dinagat Islands",
+    "altName": null,
+    "nameTL": "Pulo ng Dinagat",
+    "region": "PH-13"
+  },
+  {
+    "code": "PH-EAS",
+    "name": "Eastern Samar",
+    "altName": null,
+    "nameTL": "Silangang Samar",
+    "region": "PH-08"
+  },
+  {
+    "code": "PH-GUI",
+    "name": "Guimaras",
+    "altName": null,
+    "nameTL": "Gimaras",
+    "region": "PH-06"
+  },
+  {
+    "code": "PH-IFU",
+    "name": "Ifugao",
+    "altName": null,
+    "nameTL": "Ipugaw",
+    "region": "PH-15"
+  },
+  {
+    "code": "PH-ILN",
+    "name": "Ilocos Norte",
+    "altName": null,
+    "nameTL": "Hilagang Iloko",
+    "region": "PH-01"
+  },
+  {
+    "code": "PH-ILS",
+    "name": "Ilocos Sur",
+    "altName": null,
+    "nameTL": "Timog Iloko",
+    "region": "PH-01"
+  },
+  {
+    "code": "PH-ILI",
+    "name": "Iloilo",
+    "altName": null,
+    "nameTL": "Iloilo",
+    "region": "PH-06"
+  },
+  {
+    "code": "PH-ISA",
+    "name": "Isabela",
+    "altName": null,
+    "nameTL": "Isabela",
+    "region": "PH-02"
+  },
+  {
+    "code": "PH-KAL",
+    "name": "Kalinga",
+    "altName": null,
+    "nameTL": "Kalinga",
+    "region": "PH-15"
+  },
+  {
+    "code": "PH-LUN",
+    "name": "La Union",
+    "altName": null,
+    "nameTL": "La Unyon",
+    "region": "PH-01"
+  },
+  {
+    "code": "PH-LAG",
+    "name": "Laguna",
+    "altName": null,
+    "nameTL": "Laguna",
+    "region": "PH-40"
+  },
+  {
+    "code": "PH-LAN",
+    "name": "Lanao del Norte",
+    "altName": null,
+    "nameTL": "Hilagang Lanaw",
+    "region": "PH-12"
+  },
+  {
+    "code": "PH-LAS",
+    "name": "Lanao del Sur",
+    "altName": null,
+    "nameTL": "Timog Lanaw",
+    "region": "PH-14"
+  },
+  {
+    "code": "PH-LEY",
+    "name": "Leyte",
+    "altName": null,
+    "nameTL": "Leyte",
+    "region": "PH-08"
+  },
+  {
+    "code": "PH-MAG",
+    "name": "Maguindanao",
+    "altName": null,
+    "nameTL": "Magindanaw",
+    "region": "PH-14"
+  },
+  {
+    "code": "PH-MAD",
+    "name": "Marinduque",
+    "altName": null,
+    "nameTL": "Marinduke",
+    "region": "PH-41"
+  },
+  {
+    "code": "PH-MAS",
+    "name": "Masbate",
+    "altName": null,
+    "nameTL": "Masbate",
+    "region": "PH-05"
+  },
+  {
+    "code": "PH-MDC",
+    "name": "Mindoro Occidental",
+    "altName": null,
+    "nameTL": "Kanlurang Mindoro",
+    "region": "PH-41"
+  },
+  {
+    "code": "PH-MDR",
+    "name": "Mindoro Oriental",
+    "altName": null,
+    "nameTL": "Silangang Mindoro",
+    "region": "PH-41"
+  },
+  {
+    "code": "PH-MSC",
+    "name": "Misamis Occidental",
+    "altName": null,
+    "nameTL": "Kanlurang Misamis",
+    "region": "PH-10"
+  },
+  {
+    "code": "PH-MSR",
+    "name": "Misamis Oriental",
+    "altName": null,
+    "nameTL": "Silangang Misamis",
+    "region": "PH-10"
+  },
+  {
+    "code": "PH-MOU",
+    "name": "Mountain Province",
+    "altName": null,
+    "nameTL": "Lalawigang Bulubundukin",
+    "region": "PH-15"
+  },
+  {
+    "code": "PH-NEC",
+    "name": "Negros Occidental",
+    "altName": null,
+    "nameTL": "Kanlurang Negros",
+    "region": "PH-06"
+  },
+  {
+    "code": "PH-NER",
+    "name": "Negros Oriental",
+    "altName": null,
+    "nameTL": "Silangang Negros",
+    "region": "PH-07"
+  },
+  {
+    "code": "PH-NSA",
+    "name": "Northern Samar",
+    "altName": null,
+    "nameTL": "Hilagang Samar",
+    "region": "PH-08"
+  },
+  {
+    "code": "PH-NUE",
+    "name": "Nueva Ecija",
+    "altName": null,
+    "nameTL": "Nuweva Esiha",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-NUV",
+    "name": "Nueva Vizcaya",
+    "altName": null,
+    "nameTL": "Nuweva Biskaya",
+    "region": "PH-02"
+  },
+  {
+    "code": "PH-PLW",
+    "name": "Palawan",
+    "altName": null,
+    "nameTL": "Palawan",
+    "region": "PH-41"
+  },
+  {
+    "code": "PH-PAM",
+    "name": "Pampanga",
+    "altName": null,
+    "nameTL": "Pampanga",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-PAN",
+    "name": "Pangasinan",
+    "altName": null,
+    "nameTL": "Pangasinan",
+    "region": "PH-01"
+  },
+  {
+    "code": "PH-QUE",
+    "name": "Quezon",
+    "altName": null,
+    "nameTL": "Keson",
+    "region": "PH-40"
+  },
+  {
+    "code": "PH-QUI",
+    "name": "Quirino",
+    "altName": null,
+    "nameTL": "Kirino",
+    "region": "PH-02"
+  },
+  {
+    "code": "PH-RIZ",
+    "name": "Rizal",
+    "altName": null,
+    "nameTL": "Risal",
+    "region": "PH-40"
+  },
+  {
+    "code": "PH-ROM",
+    "name": "Romblon",
+    "altName": null,
+    "nameTL": "Romblon",
+    "region": "PH-41"
+  },
+  {
+    "code": "PH-WSA",
+    "name": "Samar",
+    "altName": "Western Samar",
+    "nameTL": "Samar",
+    "region": "PH-08"
+  },
+  {
+    "code": "PH-SAR",
+    "name": "Sarangani",
+    "altName": null,
+    "nameTL": "Sarangani",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-SIG",
+    "name": "Siquijor",
+    "altName": null,
+    "nameTL": "Sikihor",
+    "region": "PH-07"
+  },
+  {
+    "code": "PH-SOR",
+    "name": "Sorsogon",
+    "altName": null,
+    "nameTL": "Sorsogon",
+    "region": "PH-05"
+  },
+  {
+    "code": "PH-SCO",
+    "name": "South Cotabato",
+    "altName": null,
+    "nameTL": "Timog Kotabato",
+    "region": "PH-11"
+  },
+  {
+    "code": "PH-SLE",
+    "name": "Southern Leyte",
+    "altName": null,
+    "nameTL": "Katimogang Leyte",
+    "region": "PH-08"
+  },
+  {
+    "code": "PH-SUK",
+    "name": "Sultan Kudarat",
+    "altName": null,
+    "nameTL": "Sultan Kudarat",
+    "region": "PH-12"
+  },
+  {
+    "code": "PH-SLU",
+    "name": "Sulu",
+    "altName": null,
+    "nameTL": "Sulu",
+    "region": "PH-14"
+  },
+  {
+    "code": "PH-SUN",
+    "name": "Surigao del Norte",
+    "altName": null,
+    "nameTL": "Hilagang Surigaw",
+    "region": "PH-13"
+  },
+  {
+    "code": "PH-SUR",
+    "name": "Surigao del Sur",
+    "altName": null,
+    "nameTL": "Timog Surigaw",
+    "region": "PH-13"
+  },
+  {
+    "code": "PH-TAR",
+    "name": "Tarlac",
+    "altName": null,
+    "nameTL": "Tarlak",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-TAW",
+    "name": "Tawi-Tawi",
+    "altName": null,
+    "nameTL": "Tawi-Tawi",
+    "region": "PH-14"
+  },
+  {
+    "code": "PH-ZMB",
+    "name": "Zambales",
+    "altName": null,
+    "nameTL": "Sambales",
+    "region": "PH-03"
+  },
+  {
+    "code": "PH-ZAN",
+    "name": "Zamboanga del Norte",
+    "altName": null,
+    "nameTL": "Hilagang Sambuwangga",
+    "region": "PH-09"
+  },
+  {
+    "code": "PH-ZAS",
+    "name": "Zamboanga del Sur",
+    "altName": null,
+    "nameTL": "Timog Sambuwangga",
+    "region": "PH-09"
+  },
+  {
+    "code": "PH-ZSI",
+    "name": "Zamboanga Sibugay",
+    "altName": null,
+    "nameTL": "Sambuwangga Sibugay",
+    "region": "PH-09"
+  }
+]

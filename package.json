@@ -1,0 +1,40 @@
+{
+  "name": "ph-locations",
+  "version": "1.0.0",
+  "description": "Library of locations in the Philippines",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "node -r esm src/build.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyubs/ph-locations.git"
+  },
+  "keywords": [
+    "locations",
+    "philippines",
+    "regions",
+    "provinces",
+    "cities",
+    "municipalities",
+    "towns"
+  ],
+  "author": "Hyubs Ursua <hyubs.u@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyubs/ph-locations/issues"
+  },
+  "homepage": "https://github.com/hyubs/ph-locations#readme",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
