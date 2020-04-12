@@ -42,10 +42,12 @@ function getFileMD5(filePath) {
   }
 
   if (errors.length > 0) {
+    // eslint-disable-next-line no-console
     console.error('Errors', errors);
     process.exit(1);
   }
 
+  // eslint-disable-next-line no-console
   console.log('Everything is updated.');
   process.exit(0);
 })();
