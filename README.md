@@ -2,8 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/ph-locations.svg)](https://www.npmjs.com/package/ph-locations)
 ![CI](https://github.com/hyubs/ph-locations/workflows/CI/badge.svg)
+![Data Updated](https://github.com/hyubs/ph-locations/workflows/Data%20Updated/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/hyubs/ph-locations/master/LICENSE)
-
 
 Library of locations in the Philippines
 
