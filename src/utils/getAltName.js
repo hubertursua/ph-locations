@@ -6,5 +6,6 @@ export default function getAltName(str) {
   return str.match(/\([A-Za-z0-9\s]+\)$/)
     .shift()
     .replace(/^\(/, '')
-    .replace(/\)$/, '');
+    .replace(/\)$/, '')
+    .trim();
 }
