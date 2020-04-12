@@ -7,7 +7,8 @@
     "build": "node -r esm -e \"import build from './src/build'; build(); console.log('Done!');\"",
     "lint": "eslint .",
     "test": "mocha",
-    "prepublish": "npm run lint && npm run test"
+    "prepublish": "npm run lint && npm run test",
+    "check:diff": "node -r esm bin/diff.js"
   },
   "repository": {
     "type": "git",
@@ -44,6 +45,7 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-mocha": "^6.3.0",
     "esm": "^3.2.25",
+    "md5": "^2.2.1",
     "mocha": "^7.1.1",
     "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0"
