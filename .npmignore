@@ -1,1 +1,8 @@
+.babelrc
+.eslintignore
+.eslintrc.json
+.github
+.mocharc.json
+bin
 src
+test
