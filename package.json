@@ -2,7 +2,8 @@
   "name": "ph-locations",
   "version": "1.1.0",
   "description": "Library of locations in the Philippines",
-  "main": "build/index.js",
+  "main": "index.js",
+  "module": "index.mjs",
   "scripts": {
     "build": "node -r esm -e \"import build from './src/build'; build();\"",
     "lint": "eslint .",
