@@ -43,6 +43,10 @@ This library is following [ISO 3166-2:PH](https://en.wikipedia.org/wiki/ISO_3166
 
 This may be inconsistent with other data sources such as the [Philippine Standard Geographic Code (PSGC)](https://psa.gov.ph/classification/psgc/) of the Philippine Statistics Authority (PSA).
 
+### Automatic Checking
+
+A [GitHub Action](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated%22) automatically checks everyday if the data is updated.
+
 ## Regions
 
 | Property | Description |
@@ -82,3 +86,4 @@ This may be inconsistent with other data sources such as the [Philippine Standar
 **ICC** - Independent component cities
 
 **HUC** - Highly urbanized cities
+
