@@ -1,15 +1,19 @@
 import { resolve } from 'path';
-import getRegions from './getRegions';
-import getProvinces from './getProvinces';
-import getCitiesMunicipalities from './getCitiesMunicipalities';
+import iso3166 from './iso3166';
+import psgc from './psgc';
 import writeJsonFile from './utils/writeJsonFile';
 
-export default async () => {
-  const regions = await getRegions();
-  const provinces = await getProvinces();
-  const citiesMunicipalities = await getCitiesMunicipalities(provinces);
+export async function buildLib(libName, lib) {
+  const regions = await lib.getRegions();
+  const provinces = await lib.getProvinces();
+  const citiesMunicipalities = await lib.getCitiesMunicipalities(provinces);
 
-  await writeJsonFile(resolve(`${__dirname}/../build/regions.json`), regions);
-  await writeJsonFile(resolve(`${__dirname}/../build/provinces.json`), provinces);
-  await writeJsonFile(resolve(`${__dirname}/../build/citiesMunicipalities.json`), citiesMunicipalities);
+  await writeJsonFile(resolve(`${__dirname}/../json/${libName}/regions.json`), regions);
+  await writeJsonFile(resolve(`${__dirname}/../json/${libName}/provinces.json`), provinces);
+  await writeJsonFile(resolve(`${__dirname}/../json/${libName}/citiesMunicipalities.json`), citiesMunicipalities);
+}
+
+export default async () => {
+  await buildLib('iso3166', iso3166);
+  await buildLib('psgc', psgc);
 };

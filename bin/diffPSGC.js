@@ -2,7 +2,8 @@
 import md5 from 'md5';
 import fs from 'fs';
 import { resolve } from 'path';
-import build from '../src/build';
+import { buildLib } from '../src/build';
+import psgc from '../src/psgc';
 
 function getFileMD5(filePath) {
   return md5(fs.readFileSync(filePath, { encoding: 'utf-8' }));
@@ -11,16 +12,16 @@ function getFileMD5(filePath) {
 (async () => {
   const errors = [];
 
-  const filePathRegions = resolve(__dirname, '../build/regions.json');
-  const filePathProvinces = resolve(__dirname, '../build/provinces.json');
-  const filePathCitiesMunicipalities = resolve(__dirname, '../build/citiesMunicipalities.json');
+  const filePathRegions = resolve(__dirname, '../json/psgc/regions.json');
+  const filePathProvinces = resolve(__dirname, '../json/psgc/provinces.json');
+  const filePathCitiesMunicipalities = resolve(__dirname, '../json/psgc/citiesMunicipalities.json');
 
   const oldHashRegions = getFileMD5(filePathRegions);
   const oldHashProvinces = getFileMD5(filePathProvinces);
   const oldHashCitiesMunicipalities = getFileMD5(filePathCitiesMunicipalities);
 
   try {
-    await build();
+    await buildLib('psgc', psgc);
   } catch (err) {
     errors.push(err.message);
   }
