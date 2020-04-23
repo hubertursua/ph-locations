@@ -1,0 +1,87 @@
+[
+  {
+    "code": "130000000",
+    "name": "NATIONAL CAPITAL REGION",
+    "acronym": "NCR"
+  },
+  {
+    "code": "140000000",
+    "name": "CORDILLERA ADMINISTRATIVE REGION",
+    "acronym": "CAR"
+  },
+  {
+    "code": "010000000",
+    "name": "ILOCOS REGION",
+    "acronym": "REGION I"
+  },
+  {
+    "code": "020000000",
+    "name": "CAGAYAN VALLEY",
+    "acronym": "REGION II"
+  },
+  {
+    "code": "030000000",
+    "name": "CENTRAL LUZON",
+    "acronym": "REGION III"
+  },
+  {
+    "code": "040000000",
+    "name": "CALABARZON",
+    "acronym": "REGION IV-A"
+  },
+  {
+    "code": "170000000",
+    "name": "MIMAROPA REGION",
+    "acronym": "MIMAROPA"
+  },
+  {
+    "code": "050000000",
+    "name": "BICOL REGION",
+    "acronym": "REGION V"
+  },
+  {
+    "code": "060000000",
+    "name": "WESTERN VISAYAS",
+    "acronym": "REGION VI"
+  },
+  {
+    "code": "070000000",
+    "name": "CENTRAL VISAYAS",
+    "acronym": "REGION VII"
+  },
+  {
+    "code": "080000000",
+    "name": "EASTERN VISAYAS",
+    "acronym": "REGION VIII"
+  },
+  {
+    "code": "090000000",
+    "name": "ZAMBOANGA PENINSULA",
+    "acronym": "REGION IX"
+  },
+  {
+    "code": "100000000",
+    "name": "NORTHERN MINDANAO",
+    "acronym": "REGION X"
+  },
+  {
+    "code": "110000000",
+    "name": "DAVAO REGION",
+    "acronym": "REGION XI"
+  },
+  {
+    "code": "120000000",
+    "name": "SOCCSKSARGEN",
+    "acronym": "REGION XII"
+  },
+  {
+    "code": "160000000",
+    "name": "CARAGA",
+    "acronym": "REGION XIII"
+  },
+  {
+    "code": "150000000",
+    "name": "AUTONOMOUS REGION IN MUSLIM MINDANAO",
+    "acronym": "ARMM"
+  }
+]

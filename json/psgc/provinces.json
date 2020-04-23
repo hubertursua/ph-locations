@@ -1,0 +1,488 @@
+[
+  {
+    "code": "140100000",
+    "name": "ABRA",
+    "altName": null,
+    "region": "140000000"
+  },
+  {
+    "code": "141100000",
+    "name": "BENGUET",
+    "altName": null,
+    "region": "140000000"
+  },
+  {
+    "code": "142700000",
+    "name": "IFUGAO",
+    "altName": null,
+    "region": "140000000"
+  },
+  {
+    "code": "143200000",
+    "name": "KALINGA",
+    "altName": null,
+    "region": "140000000"
+  },
+  {
+    "code": "144400000",
+    "name": "MOUNTAIN PROVINCE",
+    "altName": null,
+    "region": "140000000"
+  },
+  {
+    "code": "148100000",
+    "name": "APAYAO",
+    "altName": null,
+    "region": "140000000"
+  },
+  {
+    "code": "012800000",
+    "name": "ILOCOS NORTE",
+    "altName": null,
+    "region": "010000000"
+  },
+  {
+    "code": "012900000",
+    "name": "ILOCOS SUR",
+    "altName": null,
+    "region": "010000000"
+  },
+  {
+    "code": "013300000",
+    "name": "LA UNION",
+    "altName": null,
+    "region": "010000000"
+  },
+  {
+    "code": "015500000",
+    "name": "PANGASINAN",
+    "altName": null,
+    "region": "010000000"
+  },
+  {
+    "code": "020900000",
+    "name": "BATANES",
+    "altName": null,
+    "region": "020000000"
+  },
+  {
+    "code": "021500000",
+    "name": "CAGAYAN",
+    "altName": null,
+    "region": "020000000"
+  },
+  {
+    "code": "023100000",
+    "name": "ISABELA",
+    "altName": null,
+    "region": "020000000"
+  },
+  {
+    "code": "025000000",
+    "name": "NUEVA VIZCAYA",
+    "altName": null,
+    "region": "020000000"
+  },
+  {
+    "code": "025700000",
+    "name": "QUIRINO",
+    "altName": null,
+    "region": "020000000"
+  },
+  {
+    "code": "030800000",
+    "name": "BATAAN",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "031400000",
+    "name": "BULACAN",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "034900000",
+    "name": "NUEVA ECIJA",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "035400000",
+    "name": "PAMPANGA",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "036900000",
+    "name": "TARLAC",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "037100000",
+    "name": "ZAMBALES",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "037700000",
+    "name": "AURORA",
+    "altName": null,
+    "region": "030000000"
+  },
+  {
+    "code": "041000000",
+    "name": "BATANGAS",
+    "altName": null,
+    "region": "040000000"
+  },
+  {
+    "code": "042100000",
+    "name": "CAVITE",
+    "altName": null,
+    "region": "040000000"
+  },
+  {
+    "code": "043400000",
+    "name": "LAGUNA",
+    "altName": null,
+    "region": "040000000"
+  },
+  {
+    "code": "045600000",
+    "name": "QUEZON",
+    "altName": null,
+    "region": "040000000"
+  },
+  {
+    "code": "045800000",
+    "name": "RIZAL",
+    "altName": null,
+    "region": "040000000"
+  },
+  {
+    "code": "174000000",
+    "name": "MARINDUQUE",
+    "altName": null,
+    "region": "170000000"
+  },
+  {
+    "code": "175100000",
+    "name": "OCCIDENTAL MINDORO",
+    "altName": null,
+    "region": "170000000"
+  },
+  {
+    "code": "175200000",
+    "name": "ORIENTAL MINDORO",
+    "altName": null,
+    "region": "170000000"
+  },
+  {
+    "code": "175300000",
+    "name": "PALAWAN",
+    "altName": null,
+    "region": "170000000"
+  },
+  {
+    "code": "175900000",
+    "name": "ROMBLON",
+    "altName": null,
+    "region": "170000000"
+  },
+  {
+    "code": "050500000",
+    "name": "ALBAY",
+    "altName": null,
+    "region": "050000000"
+  },
+  {
+    "code": "051600000",
+    "name": "CAMARINES NORTE",
+    "altName": null,
+    "region": "050000000"
+  },
+  {
+    "code": "051700000",
+    "name": "CAMARINES SUR",
+    "altName": null,
+    "region": "050000000"
+  },
+  {
+    "code": "052000000",
+    "name": "CATANDUANES",
+    "altName": null,
+    "region": "050000000"
+  },
+  {
+    "code": "054100000",
+    "name": "MASBATE",
+    "altName": null,
+    "region": "050000000"
+  },
+  {
+    "code": "056200000",
+    "name": "SORSOGON",
+    "altName": null,
+    "region": "050000000"
+  },
+  {
+    "code": "060400000",
+    "name": "AKLAN",
+    "altName": null,
+    "region": "060000000"
+  },
+  {
+    "code": "060600000",
+    "name": "ANTIQUE",
+    "altName": null,
+    "region": "060000000"
+  },
+  {
+    "code": "061900000",
+    "name": "CAPIZ",
+    "altName": null,
+    "region": "060000000"
+  },
+  {
+    "code": "063000000",
+    "name": "ILOILO",
+    "altName": null,
+    "region": "060000000"
+  },
+  {
+    "code": "064500000",
+    "name": "NEGROS OCCIDENTAL",
+    "altName": null,
+    "region": "060000000"
+  },
+  {
+    "code": "067900000",
+    "name": "GUIMARAS",
+    "altName": null,
+    "region": "060000000"
+  },
+  {
+    "code": "071200000",
+    "name": "BOHOL",
+    "altName": null,
+    "region": "070000000"
+  },
+  {
+    "code": "072200000",
+    "name": "CEBU",
+    "altName": null,
+    "region": "070000000"
+  },
+  {
+    "code": "074600000",
+    "name": "NEGROS ORIENTAL",
+    "altName": null,
+    "region": "070000000"
+  },
+  {
+    "code": "076100000",
+    "name": "SIQUIJOR",
+    "altName": null,
+    "region": "070000000"
+  },
+  {
+    "code": "082600000",
+    "name": "EASTERN SAMAR",
+    "altName": null,
+    "region": "080000000"
+  },
+  {
+    "code": "083700000",
+    "name": "LEYTE",
+    "altName": null,
+    "region": "080000000"
+  },
+  {
+    "code": "084800000",
+    "name": "NORTHERN SAMAR",
+    "altName": null,
+    "region": "080000000"
+  },
+  {
+    "code": "086000000",
+    "name": "SAMAR",
+    "altName": "WESTERN SAMAR",
+    "region": "080000000"
+  },
+  {
+    "code": "086400000",
+    "name": "SOUTHERN LEYTE",
+    "altName": null,
+    "region": "080000000"
+  },
+  {
+    "code": "087800000",
+    "name": "BILIRAN",
+    "altName": null,
+    "region": "080000000"
+  },
+  {
+    "code": "097200000",
+    "name": "ZAMBOANGA DEL NORTE",
+    "altName": null,
+    "region": "090000000"
+  },
+  {
+    "code": "097300000",
+    "name": "ZAMBOANGA DEL SUR",
+    "altName": null,
+    "region": "090000000"
+  },
+  {
+    "code": "098300000",
+    "name": "ZAMBOANGA SIBUGAY",
+    "altName": null,
+    "region": "090000000"
+  },
+  {
+    "code": "101300000",
+    "name": "BUKIDNON",
+    "altName": null,
+    "region": "100000000"
+  },
+  {
+    "code": "101800000",
+    "name": "CAMIGUIN",
+    "altName": null,
+    "region": "100000000"
+  },
+  {
+    "code": "103500000",
+    "name": "LANAO DEL NORTE",
+    "altName": null,
+    "region": "100000000"
+  },
+  {
+    "code": "104200000",
+    "name": "MISAMIS OCCIDENTAL",
+    "altName": null,
+    "region": "100000000"
+  },
+  {
+    "code": "104300000",
+    "name": "MISAMIS ORIENTAL",
+    "altName": null,
+    "region": "100000000"
+  },
+  {
+    "code": "112300000",
+    "name": "DAVAO DEL NORTE",
+    "altName": null,
+    "region": "110000000"
+  },
+  {
+    "code": "112400000",
+    "name": "DAVAO DEL SUR",
+    "altName": null,
+    "region": "110000000"
+  },
+  {
+    "code": "112500000",
+    "name": "DAVAO ORIENTAL",
+    "altName": null,
+    "region": "110000000"
+  },
+  {
+    "code": "118200000",
+    "name": "DAVAO DE ORO",
+    "altName": null,
+    "region": "110000000"
+  },
+  {
+    "code": "118600000",
+    "name": "DAVAO OCCIDENTAL",
+    "altName": null,
+    "region": "110000000"
+  },
+  {
+    "code": "124700000",
+    "name": "COTABATO",
+    "altName": "NORTH COTABATO",
+    "region": "120000000"
+  },
+  {
+    "code": "126300000",
+    "name": "SOUTH COTABATO",
+    "altName": null,
+    "region": "120000000"
+  },
+  {
+    "code": "126500000",
+    "name": "SULTAN KUDARAT",
+    "altName": null,
+    "region": "120000000"
+  },
+  {
+    "code": "128000000",
+    "name": "SARANGANI",
+    "altName": null,
+    "region": "120000000"
+  },
+  {
+    "code": "160200000",
+    "name": "AGUSAN DEL NORTE",
+    "altName": null,
+    "region": "160000000"
+  },
+  {
+    "code": "160300000",
+    "name": "AGUSAN DEL SUR",
+    "altName": null,
+    "region": "160000000"
+  },
+  {
+    "code": "166700000",
+    "name": "SURIGAO DEL NORTE",
+    "altName": null,
+    "region": "160000000"
+  },
+  {
+    "code": "166800000",
+    "name": "SURIGAO DEL SUR",
+    "altName": null,
+    "region": "160000000"
+  },
+  {
+    "code": "168500000",
+    "name": "DINAGAT ISLANDS",
+    "altName": null,
+    "region": "160000000"
+  },
+  {
+    "code": "150700000",
+    "name": "BASILAN",
+    "altName": null,
+    "region": "150000000"
+  },
+  {
+    "code": "153600000",
+    "name": "LANAO DEL SUR",
+    "altName": null,
+    "region": "150000000"
+  },
+  {
+    "code": "153800000",
+    "name": "MAGUINDANAO",
+    "altName": null,
+    "region": "150000000"
+  },
+  {
+    "code": "156600000",
+    "name": "SULU",
+    "altName": null,
+    "region": "150000000"
+  },
+  {
+    "code": "157000000",
+    "name": "TAWI-TAWI",
+    "altName": null,
+    "region": "150000000"
+  }
+]
