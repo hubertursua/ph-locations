@@ -94,7 +94,7 @@ const {
 
 ## Automatic Checking
 
-GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+ISO3166%22), [PSGC](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+PSGC%22)) automatically runs everyday to check if the data is updated.
+GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+ISO3166%22), [PSGC](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+PSGC%22)) automatically run everyday to check if the data is updated. See the ISO 3166 and PSGC badges [above](#ph-locations).
 
 ## Properties
 
@@ -126,7 +126,7 @@ GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=w
 | fullName | Complete name. For ISO 3166, all cities will have names end with "City". For PSGC, this will be the complete name as listed in the PSGC website. | ✓ | ✓ |
 | altName | Alternative name, often its former name | ✓ | ✓ |
 | province | ISO 3166 or PSGC code of the city's or municipality's province | ✓ | ✓ |
-| classification | Classification of the city or municipality (see below) | ✓ | ✓ |
+| classification | Classification of the city or municipality ([see below](#classification)) | ✓ | ✓ |
 | isCapital | Is the city or municipality the capital of the province | ✓ | ✓ |
 
 #### Classification
