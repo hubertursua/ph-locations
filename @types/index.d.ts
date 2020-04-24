@@ -18,7 +18,7 @@ declare interface ISO3166Province {
 declare interface ISO3166Region {
   code: string;
   name: string;
-  acronym?: string;
+  altName?: string;
   nameTL: string;
 }
 
@@ -42,7 +42,7 @@ declare interface PSGCProvince {
 declare interface PSGCRegion {
   code: string;
   name: string;
-  acronym?: string;
+  altName?: string;
 }
 
 declare module 'ph-locations' {

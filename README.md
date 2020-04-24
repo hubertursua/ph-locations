@@ -105,7 +105,7 @@ GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=w
 | code | ISO 3166 or PSGC code | ✓ | ✓ |
 | name | English name | ✓ | ✓ |
 | nameTL | Tagalog name | ✓ | ✗ |
-| acronym | Acronym or roman number | ✓ | ✓ |
+| altName | Alternative name, often the roman number or acronym of the region | ✓ | ✓ |
 
 ### Provinces
 
