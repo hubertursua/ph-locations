@@ -7,7 +7,7 @@
     "build": "node -r esm -e \"import build from './src/build'; build();\"",
     "lint": "eslint .",
     "test": "mocha",
-    "prepublish": "npm run lint && npm run test",
+    "prepublishOnly": "npm run lint && npm run test",
     "diff:iso3166": "node -r esm bin/diffISO3166.js",
     "diff:psgc": "node -r esm bin/diffPSGC.js"
   },
