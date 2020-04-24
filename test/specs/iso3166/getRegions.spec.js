@@ -32,8 +32,8 @@ export default () => {
         expect(element).to.have.property('nameTL');
       });
 
-      it('should have a property "acronym"', async () => {
-        expect(element).to.have.property('acronym');
+      it('should have a property "altName"', async () => {
+        expect(element).to.have.property('altName');
       });
     });
   });

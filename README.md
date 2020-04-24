@@ -22,19 +22,64 @@ yarn add ph-locations
 
 ### Import
 
+**Default (ISO 3166)**
+
 ```js
 // CommonJS
-const regions = require('ph-locations/json/iso3166/regions');
-const provinces = require('ph-locations/json/iso3166/provinces');
-const citiesMunicipalities = require('ph-locations/json/iso3166/citiesMunicipalities');
+const {
+  regions,
+  provinces,
+  citiesMunicipalities,
+} = require('ph-locations');
 
 // ES6
-import regions from 'ph-locations/json/iso3166/regions';
-import provinces from 'ph-locations/json/iso3166/provinces';
-import citiesMunicipalities from 'ph-locations/json/iso3166/citiesMunicipalities';
+import {
+  regions,
+  provinces,
+  citiesMunicipalities,
+} from 'ph-locations';
 ```
 
-## Source
+**PSGC**
+
+```js
+// CommonJS
+const {
+  regions,
+  provinces,
+  citiesMunicipalities,
+} = require('ph-locations').psgc;
+
+// ES6
+import { psgc } from 'ph-locations';
+const {
+  regions,
+  provinces,
+  citiesMunicipalities,
+} = psgc;
+
+```
+
+**ISO 3166 (same result as default)**
+
+```js
+// CommonJS
+const {
+  regions,
+  provinces,
+  citiesMunicipalities,
+} = require('ph-locations').iso3166;
+
+// ES6
+import { iso3166 } from 'ph-locations';
+const {
+  regions,
+  provinces,
+  citiesMunicipalities,
+} = iso3166;
+```
+
+## Sources
 
 ### ISO 3166 & Wikipedia
 
@@ -47,20 +92,22 @@ import citiesMunicipalities from 'ph-locations/json/iso3166/citiesMunicipalities
 * [Provinces](https://psa.gov.ph/classification/psgc/?q=psgc/provinces)
 * Cities (e.g.  [Camarines Sur](https://psa.gov.ph/classification/psgc/?q=psgc/citimuni/051700000))
 
-### Automatic Checking
+## Automatic Checking
 
-A [GitHub Action](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated%22) automatically checks everyday if the data is updated.
+GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+ISO3166%22), [PSGC](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+PSGC%22)) automatically runs everyday to check if the data is updated.
 
-## Regions
+## Properties
+
+### Regions
 
 | Property | Description | ISO 3166 | PSGC |
 | - | - | :-: | :-: |
 | code | ISO 3166 or PSGC code | ✓ | ✓ |
 | name | English name | ✓ | ✓ |
 | nameTL | Tagalog name | ✓ | ✗ |
-| acronym | Acronym or roman number | ✓ | ✓ |
+| altName | Alternative name, often the roman number or acronym of the region | ✓ | ✓ |
 
-## Provinces
+### Provinces
 
 | Property | Description | ISO 3166 | PSGC |
 | - | - | :-: | :-: |
@@ -70,7 +117,7 @@ A [GitHub Action](https://github.com/hyubs/ph-locations/actions?query=workflow%3
 | nameTL | Tagalog name | ✓ | ✗ |
 | region | ISO 3166 or PSGC code of the province's region | ✓ | ✓ |
 
-## Cities and Municipalities
+### Cities and Municipalities
 
 | Property | Description | ISO 3166 | PSGC |
 | - | - | :-: | :-: |
@@ -82,7 +129,7 @@ A [GitHub Action](https://github.com/hyubs/ph-locations/actions?query=workflow%3
 | classification | Classification of the city or municipality (see below) | ✓ | ✓ |
 | isCapital | Is the city or municipality the capital of the province | ✓ | ✓ |
 
-### Classification
+#### Classification
 
 **ISO 3166**
 
@@ -99,3 +146,7 @@ A [GitHub Action](https://github.com/hyubs/ph-locations/actions?query=workflow%3
 | - | - |
 | MUNICIPALITY | Municipality |
 | CITY | City |
+
+## License
+
+Licensed under [MIT License](https://github.com/hyubs/ph-locations/blob/master/LICENSE)

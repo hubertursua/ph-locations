@@ -1,13 +1,13 @@
 {
   "name": "ph-locations",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Library of locations in the Philippines",
-  "main": "build/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "node -r esm -e \"import build from './src/build'; build();\"",
     "lint": "eslint .",
     "test": "mocha",
-    "prepublish": "npm run lint && npm run test",
+    "prepublishOnly": "npm run lint && npm run test",
     "diff:iso3166": "node -r esm bin/diffISO3166.js",
     "diff:psgc": "node -r esm bin/diffPSGC.js"
   },
@@ -51,5 +51,6 @@
     "mocha": "^7.1.1",
     "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0"
-  }
+  },
+  "types": "@types/index.d.ts"
 }

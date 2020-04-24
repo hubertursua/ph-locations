@@ -19,13 +19,13 @@ export default async function getRegions() {
     const code = sanitize($cells.eq(0).text());
     const name = sanitize($cells.eq(1).text());
     const nameTL = sanitize($cells.eq(2).text());
-    const acronym = sanitize($cells.eq(3).text());
+    const altName = sanitize($cells.eq(3).text());
 
     regions.push({
       code,
       name,
       nameTL,
-      acronym,
+      altName,
     });
   });
 

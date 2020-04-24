@@ -11,7 +11,7 @@ export default async function getRegions() {
   $('#classifytable').each(function () {
     const nameFull = $('tr > th', this).eq(0).text().replace(/^(Region:\s)/i, '');
     const code = $('tr > th', this).eq(1).text().replace(/^(Code:\s)/i, '');
-    let acronym = (nameFull.includes('('))
+    let altName = (nameFull.includes('('))
       ? nameFull.substring(0, nameFull.indexOf('(') - 1)
       : nameFull;
     let name = (nameFull.includes('('))
@@ -20,18 +20,18 @@ export default async function getRegions() {
 
     if (['ARMM', 'CAR', 'NCR'].includes(name)) {
       const tmpName = name;
-      name = acronym;
-      acronym = tmpName;
+      name = altName;
+      altName = tmpName;
     }
 
-    if (acronym.endsWith(' REGION')) {
-      acronym = acronym.replace(/(\sREGION)$/i, '');
+    if (altName.endsWith(' REGION')) {
+      altName = altName.replace(/(\sREGION)$/i, '');
     }
 
     regions.push({
       code,
       name,
-      acronym,
+      altName,
     });
   });
 
