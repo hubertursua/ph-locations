@@ -1,6 +1,6 @@
 {
   "name": "ph-locations",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Library of locations in the Philippines",
   "main": "index.js",
   "scripts": {
