@@ -92,6 +92,10 @@ const {
 * [Provinces](https://psa.gov.ph/classification/psgc/?q=psgc/provinces)
 * Cities (e.g.  [Camarines Sur](https://psa.gov.ph/classification/psgc/?q=psgc/citimuni/051700000))
 
+_Notes regarding NCR:_
+
+PSGC does not assign NCR cities and municipalities under a province. Instead, they are classified under districts. Because of this, an unofficial pseudo-province called "Metro Manila" (code 130100000) was added and all cities and provinces of NCR are listed under this.
+
 ## Automatic Checking
 
 GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+ISO3166%22), [PSGC](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+PSGC%22)) automatically run everyday to check if the data is updated. See the ISO 3166 and PSGC badges [above](#ph-locations).

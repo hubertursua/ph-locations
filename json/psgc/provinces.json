@@ -1,487 +1,493 @@
 [
   {
+    "code": "130100000",
+    "name": "Metro Manila",
+    "altName": null,
+    "region": "130000000"
+  },
+  {
     "code": "140100000",
-    "name": "ABRA",
+    "name": "Abra",
     "altName": null,
     "region": "140000000"
   },
   {
     "code": "141100000",
-    "name": "BENGUET",
+    "name": "Benguet",
     "altName": null,
     "region": "140000000"
   },
   {
     "code": "142700000",
-    "name": "IFUGAO",
+    "name": "Ifugao",
     "altName": null,
     "region": "140000000"
   },
   {
     "code": "143200000",
-    "name": "KALINGA",
+    "name": "Kalinga",
     "altName": null,
     "region": "140000000"
   },
   {
     "code": "144400000",
-    "name": "MOUNTAIN PROVINCE",
+    "name": "Mountain Province",
     "altName": null,
     "region": "140000000"
   },
   {
     "code": "148100000",
-    "name": "APAYAO",
+    "name": "Apayao",
     "altName": null,
     "region": "140000000"
   },
   {
     "code": "012800000",
-    "name": "ILOCOS NORTE",
+    "name": "Ilocos Norte",
     "altName": null,
     "region": "010000000"
   },
   {
     "code": "012900000",
-    "name": "ILOCOS SUR",
+    "name": "Ilocos Sur",
     "altName": null,
     "region": "010000000"
   },
   {
     "code": "013300000",
-    "name": "LA UNION",
+    "name": "La Union",
     "altName": null,
     "region": "010000000"
   },
   {
     "code": "015500000",
-    "name": "PANGASINAN",
+    "name": "Pangasinan",
     "altName": null,
     "region": "010000000"
   },
   {
     "code": "020900000",
-    "name": "BATANES",
+    "name": "Batanes",
     "altName": null,
     "region": "020000000"
   },
   {
     "code": "021500000",
-    "name": "CAGAYAN",
+    "name": "Cagayan",
     "altName": null,
     "region": "020000000"
   },
   {
     "code": "023100000",
-    "name": "ISABELA",
+    "name": "Isabela",
     "altName": null,
     "region": "020000000"
   },
   {
     "code": "025000000",
-    "name": "NUEVA VIZCAYA",
+    "name": "Nueva Vizcaya",
     "altName": null,
     "region": "020000000"
   },
   {
     "code": "025700000",
-    "name": "QUIRINO",
+    "name": "Quirino",
     "altName": null,
     "region": "020000000"
   },
   {
     "code": "030800000",
-    "name": "BATAAN",
+    "name": "Bataan",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "031400000",
-    "name": "BULACAN",
+    "name": "Bulacan",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "034900000",
-    "name": "NUEVA ECIJA",
+    "name": "Nueva Ecija",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "035400000",
-    "name": "PAMPANGA",
+    "name": "Pampanga",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "036900000",
-    "name": "TARLAC",
+    "name": "Tarlac",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "037100000",
-    "name": "ZAMBALES",
+    "name": "Zambales",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "037700000",
-    "name": "AURORA",
+    "name": "Aurora",
     "altName": null,
     "region": "030000000"
   },
   {
     "code": "041000000",
-    "name": "BATANGAS",
+    "name": "Batangas",
     "altName": null,
     "region": "040000000"
   },
   {
     "code": "042100000",
-    "name": "CAVITE",
+    "name": "Cavite",
     "altName": null,
     "region": "040000000"
   },
   {
     "code": "043400000",
-    "name": "LAGUNA",
+    "name": "Laguna",
     "altName": null,
     "region": "040000000"
   },
   {
     "code": "045600000",
-    "name": "QUEZON",
+    "name": "Quezon",
     "altName": null,
     "region": "040000000"
   },
   {
     "code": "045800000",
-    "name": "RIZAL",
+    "name": "Rizal",
     "altName": null,
     "region": "040000000"
   },
   {
     "code": "174000000",
-    "name": "MARINDUQUE",
+    "name": "Marinduque",
     "altName": null,
     "region": "170000000"
   },
   {
     "code": "175100000",
-    "name": "OCCIDENTAL MINDORO",
+    "name": "Occidental Mindoro",
     "altName": null,
     "region": "170000000"
   },
   {
     "code": "175200000",
-    "name": "ORIENTAL MINDORO",
+    "name": "Oriental Mindoro",
     "altName": null,
     "region": "170000000"
   },
   {
     "code": "175300000",
-    "name": "PALAWAN",
+    "name": "Palawan",
     "altName": null,
     "region": "170000000"
   },
   {
     "code": "175900000",
-    "name": "ROMBLON",
+    "name": "Romblon",
     "altName": null,
     "region": "170000000"
   },
   {
     "code": "050500000",
-    "name": "ALBAY",
+    "name": "Albay",
     "altName": null,
     "region": "050000000"
   },
   {
     "code": "051600000",
-    "name": "CAMARINES NORTE",
+    "name": "Camarines Norte",
     "altName": null,
     "region": "050000000"
   },
   {
     "code": "051700000",
-    "name": "CAMARINES SUR",
+    "name": "Camarines Sur",
     "altName": null,
     "region": "050000000"
   },
   {
     "code": "052000000",
-    "name": "CATANDUANES",
+    "name": "Catanduanes",
     "altName": null,
     "region": "050000000"
   },
   {
     "code": "054100000",
-    "name": "MASBATE",
+    "name": "Masbate",
     "altName": null,
     "region": "050000000"
   },
   {
     "code": "056200000",
-    "name": "SORSOGON",
+    "name": "Sorsogon",
     "altName": null,
     "region": "050000000"
   },
   {
     "code": "060400000",
-    "name": "AKLAN",
+    "name": "Aklan",
     "altName": null,
     "region": "060000000"
   },
   {
     "code": "060600000",
-    "name": "ANTIQUE",
+    "name": "Antique",
     "altName": null,
     "region": "060000000"
   },
   {
     "code": "061900000",
-    "name": "CAPIZ",
+    "name": "Capiz",
     "altName": null,
     "region": "060000000"
   },
   {
     "code": "063000000",
-    "name": "ILOILO",
+    "name": "Iloilo",
     "altName": null,
     "region": "060000000"
   },
   {
     "code": "064500000",
-    "name": "NEGROS OCCIDENTAL",
+    "name": "Negros Occidental",
     "altName": null,
     "region": "060000000"
   },
   {
     "code": "067900000",
-    "name": "GUIMARAS",
+    "name": "Guimaras",
     "altName": null,
     "region": "060000000"
   },
   {
     "code": "071200000",
-    "name": "BOHOL",
+    "name": "Bohol",
     "altName": null,
     "region": "070000000"
   },
   {
     "code": "072200000",
-    "name": "CEBU",
+    "name": "Cebu",
     "altName": null,
     "region": "070000000"
   },
   {
     "code": "074600000",
-    "name": "NEGROS ORIENTAL",
+    "name": "Negros Oriental",
     "altName": null,
     "region": "070000000"
   },
   {
     "code": "076100000",
-    "name": "SIQUIJOR",
+    "name": "Siquijor",
     "altName": null,
     "region": "070000000"
   },
   {
     "code": "082600000",
-    "name": "EASTERN SAMAR",
+    "name": "Eastern Samar",
     "altName": null,
     "region": "080000000"
   },
   {
     "code": "083700000",
-    "name": "LEYTE",
+    "name": "Leyte",
     "altName": null,
     "region": "080000000"
   },
   {
     "code": "084800000",
-    "name": "NORTHERN SAMAR",
+    "name": "Northern Samar",
     "altName": null,
     "region": "080000000"
   },
   {
     "code": "086000000",
-    "name": "SAMAR",
-    "altName": "WESTERN SAMAR",
+    "name": "Samar",
+    "altName": "Western Samar",
     "region": "080000000"
   },
   {
     "code": "086400000",
-    "name": "SOUTHERN LEYTE",
+    "name": "Southern Leyte",
     "altName": null,
     "region": "080000000"
   },
   {
     "code": "087800000",
-    "name": "BILIRAN",
+    "name": "Biliran",
     "altName": null,
     "region": "080000000"
   },
   {
     "code": "097200000",
-    "name": "ZAMBOANGA DEL NORTE",
+    "name": "Zamboanga Del Norte",
     "altName": null,
     "region": "090000000"
   },
   {
     "code": "097300000",
-    "name": "ZAMBOANGA DEL SUR",
+    "name": "Zamboanga Del Sur",
     "altName": null,
     "region": "090000000"
   },
   {
     "code": "098300000",
-    "name": "ZAMBOANGA SIBUGAY",
+    "name": "Zamboanga Sibugay",
     "altName": null,
     "region": "090000000"
   },
   {
     "code": "101300000",
-    "name": "BUKIDNON",
+    "name": "Bukidnon",
     "altName": null,
     "region": "100000000"
   },
   {
     "code": "101800000",
-    "name": "CAMIGUIN",
+    "name": "Camiguin",
     "altName": null,
     "region": "100000000"
   },
   {
     "code": "103500000",
-    "name": "LANAO DEL NORTE",
+    "name": "Lanao Del Norte",
     "altName": null,
     "region": "100000000"
   },
   {
     "code": "104200000",
-    "name": "MISAMIS OCCIDENTAL",
+    "name": "Misamis Occidental",
     "altName": null,
     "region": "100000000"
   },
   {
     "code": "104300000",
-    "name": "MISAMIS ORIENTAL",
+    "name": "Misamis Oriental",
     "altName": null,
     "region": "100000000"
   },
   {
     "code": "112300000",
-    "name": "DAVAO DEL NORTE",
+    "name": "Davao Del Norte",
     "altName": null,
     "region": "110000000"
   },
   {
     "code": "112400000",
-    "name": "DAVAO DEL SUR",
+    "name": "Davao Del Sur",
     "altName": null,
     "region": "110000000"
   },
   {
     "code": "112500000",
-    "name": "DAVAO ORIENTAL",
+    "name": "Davao Oriental",
     "altName": null,
     "region": "110000000"
   },
   {
     "code": "118200000",
-    "name": "DAVAO DE ORO",
+    "name": "Davao De Oro",
     "altName": null,
     "region": "110000000"
   },
   {
     "code": "118600000",
-    "name": "DAVAO OCCIDENTAL",
+    "name": "Davao Occidental",
     "altName": null,
     "region": "110000000"
   },
   {
     "code": "124700000",
-    "name": "COTABATO",
-    "altName": "NORTH COTABATO",
+    "name": "Cotabato",
+    "altName": "North Cotabato",
     "region": "120000000"
   },
   {
     "code": "126300000",
-    "name": "SOUTH COTABATO",
+    "name": "South Cotabato",
     "altName": null,
     "region": "120000000"
   },
   {
     "code": "126500000",
-    "name": "SULTAN KUDARAT",
+    "name": "Sultan Kudarat",
     "altName": null,
     "region": "120000000"
   },
   {
     "code": "128000000",
-    "name": "SARANGANI",
+    "name": "Sarangani",
     "altName": null,
     "region": "120000000"
   },
   {
     "code": "160200000",
-    "name": "AGUSAN DEL NORTE",
+    "name": "Agusan Del Norte",
     "altName": null,
     "region": "160000000"
   },
   {
     "code": "160300000",
-    "name": "AGUSAN DEL SUR",
+    "name": "Agusan Del Sur",
     "altName": null,
     "region": "160000000"
   },
   {
     "code": "166700000",
-    "name": "SURIGAO DEL NORTE",
+    "name": "Surigao Del Norte",
     "altName": null,
     "region": "160000000"
   },
   {
     "code": "166800000",
-    "name": "SURIGAO DEL SUR",
+    "name": "Surigao Del Sur",
     "altName": null,
     "region": "160000000"
   },
   {
     "code": "168500000",
-    "name": "DINAGAT ISLANDS",
+    "name": "Dinagat Islands",
     "altName": null,
     "region": "160000000"
   },
   {
     "code": "150700000",
-    "name": "BASILAN",
+    "name": "Basilan",
     "altName": null,
     "region": "150000000"
   },
   {
     "code": "153600000",
-    "name": "LANAO DEL SUR",
+    "name": "Lanao Del Sur",
     "altName": null,
     "region": "150000000"
   },
   {
     "code": "153800000",
-    "name": "MAGUINDANAO",
+    "name": "Maguindanao",
     "altName": null,
     "region": "150000000"
   },
   {
     "code": "156600000",
-    "name": "SULU",
+    "name": "Sulu",
     "altName": null,
     "region": "150000000"
   },
   {
     "code": "157000000",
-    "name": "TAWI-TAWI",
+    "name": "Tawi Tawi",
     "altName": null,
     "region": "150000000"
   }

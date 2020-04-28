@@ -1,6 +1,6 @@
 {
   "name": "ph-locations",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Library of locations in the Philippines",
   "main": "index.js",
   "scripts": {
@@ -40,6 +40,7 @@
     "axios": "^0.19.2",
     "babel": "^6.23.0",
     "chai": "^4.2.0",
+    "change-case": "^4.1.1",
     "cheerio": "^1.0.0-rc.3",
     "dirty-chai": "^2.0.1",
     "eslint": "^6.8.0",
