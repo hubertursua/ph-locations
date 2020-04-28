@@ -1,87 +1,87 @@
 [
   {
     "code": "130000000",
-    "name": "NATIONAL CAPITAL REGION",
+    "name": "National Capital Region",
     "altName": "NCR"
   },
   {
     "code": "140000000",
-    "name": "CORDILLERA ADMINISTRATIVE REGION",
+    "name": "Cordillera Administrative Region",
     "altName": "CAR"
   },
   {
     "code": "010000000",
-    "name": "ILOCOS REGION",
-    "altName": "REGION I"
+    "name": "Ilocos Region",
+    "altName": "Region I"
   },
   {
     "code": "020000000",
-    "name": "CAGAYAN VALLEY",
-    "altName": "REGION II"
+    "name": "Cagayan Valley",
+    "altName": "Region II"
   },
   {
     "code": "030000000",
-    "name": "CENTRAL LUZON",
-    "altName": "REGION III"
+    "name": "Central Luzon",
+    "altName": "Region III"
   },
   {
     "code": "040000000",
     "name": "CALABARZON",
-    "altName": "REGION IV-A"
+    "altName": "Region IV-A"
   },
   {
     "code": "170000000",
-    "name": "MIMAROPA REGION",
+    "name": "Mimaropa Region",
     "altName": "MIMAROPA"
   },
   {
     "code": "050000000",
-    "name": "BICOL REGION",
-    "altName": "REGION V"
+    "name": "Bicol Region",
+    "altName": "Region V"
   },
   {
     "code": "060000000",
-    "name": "WESTERN VISAYAS",
-    "altName": "REGION VI"
+    "name": "Western Visayas",
+    "altName": "Region VI"
   },
   {
     "code": "070000000",
-    "name": "CENTRAL VISAYAS",
-    "altName": "REGION VII"
+    "name": "Central Visayas",
+    "altName": "Region VII"
   },
   {
     "code": "080000000",
-    "name": "EASTERN VISAYAS",
-    "altName": "REGION VIII"
+    "name": "Eastern Visayas",
+    "altName": "Region VIII"
   },
   {
     "code": "090000000",
-    "name": "ZAMBOANGA PENINSULA",
-    "altName": "REGION IX"
+    "name": "Zamboanga Peninsula",
+    "altName": "Region IX"
   },
   {
     "code": "100000000",
-    "name": "NORTHERN MINDANAO",
-    "altName": "REGION X"
+    "name": "Northern Mindanao",
+    "altName": "Region X"
   },
   {
     "code": "110000000",
-    "name": "DAVAO REGION",
-    "altName": "REGION XI"
+    "name": "Davao Region",
+    "altName": "Region XI"
   },
   {
     "code": "120000000",
     "name": "SOCCSKSARGEN",
-    "altName": "REGION XII"
+    "altName": "Region XII"
   },
   {
     "code": "160000000",
     "name": "CARAGA",
-    "altName": "REGION XIII"
+    "altName": "Region XIII"
   },
   {
     "code": "150000000",
-    "name": "AUTONOMOUS REGION IN MUSLIM MINDANAO",
+    "name": "Autonomous Region In Muslim Mindanao",
     "altName": "ARMM"
   }
 ]

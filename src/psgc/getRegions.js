@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import Axios from 'axios';
 import cheerio from 'cheerio';
+import { capitalCase } from 'change-case';
 
 export default async function getRegions() {
   const regions = [];
@@ -26,6 +27,12 @@ export default async function getRegions() {
 
     if (altName.endsWith(' REGION')) {
       altName = altName.replace(/(\sREGION)$/i, '');
+    }
+
+    altName = altName.replace(/^(REGION\s)/, 'Region ');
+
+    if (!['CALABARZON', 'SOCCSKSARGEN', 'CARAGA'].includes(name)) {
+      name = capitalCase(name);
     }
 
     regions.push({
