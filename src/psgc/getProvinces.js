@@ -1,8 +1,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import Axios from 'axios';
-import { capitalCase } from 'change-case';
 import cheerio from 'cheerio';
 import sanitize from '../utils/sanitize';
+import fixCasing from '../utils/fixCasing';
 import stripAltName from '../utils/stripAltName';
 import getAltName from '../utils/getAltName';
 
@@ -22,9 +22,9 @@ export default async function getProvinces() {
     $('tr', this).each(function () {
       const tmpName = sanitize($('td', this).eq(0).text().toUpperCase());
       const code = sanitize($('td', this).eq(1).text().toUpperCase());
-      const name = capitalCase(stripAltName(tmpName));
+      const name = fixCasing(stripAltName(tmpName));
       let altName = getAltName(tmpName);
-      altName = (altName) ? capitalCase(altName) : null;
+      altName = (altName) ? fixCasing(altName) : null;
 
       provinces.push({
         code,
