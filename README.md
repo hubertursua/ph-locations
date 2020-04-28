@@ -1,10 +1,10 @@
 # ph-locations
 
-[![NPM version](https://img.shields.io/npm/v/ph-locations.svg)](https://www.npmjs.com/package/ph-locations)
-![CI](https://github.com/hyubs/ph-locations/workflows/CI/badge.svg)
-![ISO 3166](https://github.com/hyubs/ph-locations/workflows/Data%20Updated%20ISO3166/badge.svg)
-![PSGC](https://github.com/hyubs/ph-locations/workflows/Data%20Updated%20PSGC/badge.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/hyubs/ph-locations/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/ph-locations?color=6ab04c)](https://www.npmjs.com/package/ph-locations)
+[![CI](https://img.shields.io/github/workflow/status/hyubs/ph-locations/CI?label=CI&logo=github&color=6ab04c)](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22CI%22)
+[![ISO3166](https://img.shields.io/github/workflow/status/hyubs/ph-locations/Data%20Updated%20ISO3166?label=ISO3166&logo=github&color=6ab04c)](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+ISO3166%22)
+[![PSGC](https://img.shields.io/github/workflow/status/hyubs/ph-locations/Data%20Updated%20PSGC?label=PSGC&logo=github&color=6ab04c)](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+PSGC%22)
+[![GitHub](https://img.shields.io/github/license/hyubs/ph-locations?color=6ab04c)](https://raw.githubusercontent.com/hyubs/ph-locations/master/LICENSE)
 
 Library of locations in the Philippines
 
