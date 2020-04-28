@@ -6,7 +6,9 @@
 [![PSGC](https://img.shields.io/github/workflow/status/hyubs/ph-locations/Data%20Updated%20PSGC?label=PSGC&logo=github&color=6ab04c)](https://github.com/hyubs/ph-locations/actions?query=workflow%3A%22Data+Updated+PSGC%22)
 [![GitHub](https://img.shields.io/github/license/hyubs/ph-locations?color=6ab04c)](https://raw.githubusercontent.com/hyubs/ph-locations/master/LICENSE)
 
-Library of locations in the Philippines
+Library of locations in the Philippines (regions, provinces, and cities & municipalities).
+
+This library automatically checks the sources, ensuring the data is always updated.
 
 ## Usage
 
@@ -111,6 +113,27 @@ GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=w
 | nameTL | Tagalog name | ✓ | ✗ |
 | altName | Alternative name, often the roman number or acronym of the region | ✓ | ✓ |
 
+**ISO 3166**
+
+```js
+{
+  "code": "PH-05",
+  "name": "Bicol",
+  "nameTL": "Rehiyon ng Bikol",
+  "altName": "V"
+}
+```
+
+**PSGC**
+
+```js
+{
+  "code": "050000000",
+  "name": "Bicol Region",
+  "altName": "Region V"
+}
+```
+
 ### Provinces
 
 | Property | Description | ISO 3166 | PSGC |
@@ -120,6 +143,29 @@ GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=w
 | altName | Alternative name, often its former name | ✓ | ✓ |
 | nameTL | Tagalog name | ✓ | ✗ |
 | region | ISO 3166 or PSGC code of the province's region | ✓ | ✓ |
+
+**ISO 3166**
+
+```js
+{
+  "code": "PH-CAS",
+  "name": "Camarines Sur",
+  "altName": null,
+  "nameTL": "Timog Kamarines",
+  "region": "PH-05"
+}
+```
+
+**PSGC**
+
+```js
+{
+  "code": "051700000",
+  "name": "Camarines Sur",
+  "altName": null,
+  "region": "050000000"
+}
+```
 
 ### Cities and Municipalities
 
@@ -132,6 +178,33 @@ GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=w
 | province | ISO 3166 or PSGC code of the city's or municipality's province | ✓ | ✓ |
 | classification | Classification of the city or municipality ([see below](#classification)) | ✓ | ✓ |
 | isCapital | Is the city or municipality the capital of the province | ✓ | ✓ |
+
+**ISO 3166**
+
+```js
+{
+  "name": "Naga",
+  "fullName": "Naga City",
+  "altName": null,
+  "province": "PH-CAS",
+  "classification": "ICC",
+  "isCapital": false
+}
+```
+
+**PSGC**
+
+```js
+{
+  "code": "051724000",
+  "name": "Naga City",
+  "fullName": "City Of Naga",
+  "altName": null,
+  "province": "051700000",
+  "classification": "CITY",
+  "isCapital": false
+}
+```
 
 #### Classification
 
