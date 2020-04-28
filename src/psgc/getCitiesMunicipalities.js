@@ -2,9 +2,9 @@
 import Axios from 'axios';
 import mapLimit from 'async/mapLimit';
 import cheerio from 'cheerio';
-import { capitalCase } from 'change-case';
 import getAltName from '../utils/getAltName';
 import sanitize from '../utils/sanitize';
+import fixCasing from '../utils/fixCasing';
 import stripAltName from '../utils/stripAltName';
 import stripCapital from '../utils/stripCapital';
 import { METRO_MANILA_FAKE_PROVINCE_CODE } from './getProvinces';
@@ -37,12 +37,12 @@ export async function fetchOfProvince(province) {
       const tmpName = sanitize($('td', this).eq(0).text());
       const code = sanitize($('td', this).eq(1).text());
       const isCapital = tmpName.toUpperCase().includes('(CAPITAL)');
-      const fullName = capitalCase(stripCapital(tmpName));
+      const fullName = fixCasing(stripCapital(tmpName));
       let altName = getAltName(stripCapital(tmpName));
-      altName = (altName) ? capitalCase(altName) : null;
+      altName = (altName) ? fixCasing(altName) : null;
 
       const tmpShortName = stripAltName(stripCapital(tmpName));
-      const name = capitalCase(
+      const name = fixCasing(
         (tmpShortName.startsWith('CITY OF '))
           ? `${tmpShortName.replace('CITY OF ', '')} CITY`
           : tmpShortName,
