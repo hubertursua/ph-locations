@@ -2,7 +2,7 @@ declare interface ISO3166CitiesMunicipality {
   name: string;
   fullName: string;
   altName?: string;
-  province?: string;
+  province: string;
   classification: 'Mun' | 'CC' | 'ICC' | 'HUC';
   isCapital: boolean;
 }
