@@ -5,11 +5,11 @@ export default () => {
   describe('getProvinceCode', () => {
     const provinces = [
       {
-        "code": "PH-CAS",
-        "name": "Camarines Sur",
-        "altName": null,
-        "nameTL": "Timog Kamarines",
-        "region": "PH-05"
+        code: 'PH-CAS',
+        name: 'Camarines Sur',
+        altName: null,
+        nameTL: 'Timog Kamarines',
+        region: 'PH-05',
       },
     ];
 
@@ -30,7 +30,7 @@ export default () => {
 
       const invocation = () => getProvinceCode(str, provinces);
 
-      expect(invocation).to.throw(`Could not find province "Unknown Province".`);
+      expect(invocation).to.throw('Could not find province "Unknown Province".');
     });
   });
 };

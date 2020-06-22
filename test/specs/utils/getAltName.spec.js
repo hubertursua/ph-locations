@@ -8,5 +8,11 @@ export default () => {
       const result = getAltName(str);
       expect(result).to.be.equal('Province Alt Name');
     });
+
+    it('should return null if there is no alt name', () => {
+      const str = 'Province Name';
+      const result = getAltName(str);
+      expect(result).to.be.equal(null);
+    });
   });
 };

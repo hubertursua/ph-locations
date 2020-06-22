@@ -1,3 +1,4 @@
+.github
+@types
 build
 node_modules
-test

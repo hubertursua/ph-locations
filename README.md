@@ -94,9 +94,10 @@ const {
 * [Provinces](https://psa.gov.ph/classification/psgc/?q=psgc/provinces)
 * Cities (e.g.  [Camarines Sur](https://psa.gov.ph/classification/psgc/?q=psgc/citimuni/051700000))
 
-_Notes regarding NCR:_
+### Data Changes
 
-PSGC does not assign NCR cities and municipalities under a province. Instead, they are classified under districts. Because of this, an unofficial pseudo-province called "Metro Manila" (code 130100000) was added and all cities and provinces of NCR are listed under this.
+1. Metro Manila is not officially a province but it has been added in ISO3166 and PSGC data sets.
+2. Some cities and municipalities (e.g. Cotabato, Isabela City, and all Metro Manila cities & municipalities) also had their provinces forcefully set. This ensures all have provinces mapped.
 
 ## Automatic Checking
 
@@ -198,7 +199,7 @@ GitHub Actions ([ISO 3166](https://github.com/hyubs/ph-locations/actions?query=w
 {
   "code": "051724000",
   "name": "Naga City",
-  "fullName": "City Of Naga",
+  "fullName": "City of Naga",
   "altName": null,
   "province": "051700000",
   "classification": "CITY",

@@ -5,7 +5,7 @@
     "plugin:mocha/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2017
+    "ecmaVersion": 2018
   },
   "plugins": [
     "mocha"
@@ -15,6 +15,7 @@
     "class-methods-use-this": 0,
     "func-names": 0,
     "import/extensions": 0,
+    "mocha/no-hooks-for-single-case": 0,
     "mocha/no-mocha-arrows": 0
   },
   "env": {

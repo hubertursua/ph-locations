@@ -4,5 +4,9 @@
 .github
 .mocharc.json
 bin
-src
-test
+coverage
+src/build.js
+src/diff.js
+src/fetch
+src/utils
+tests

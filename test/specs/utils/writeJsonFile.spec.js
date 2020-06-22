@@ -15,7 +15,7 @@ export default () => {
 
     afterEach(() => {
       sinon.restore();
-    })
+    });
 
     it('should write to file path', () => {
       writeJsonFile(filePath, data);
@@ -38,6 +38,25 @@ export default () => {
 
       expect(writeFileStub).to.have.been.called();
       expect(writeFileStub.args[0][2]).to.deep.equal({ encoding: 'utf-8' });
+    });
+
+    it('should resolve Promise if successful', async () => {
+      writeFileStub.restore();
+      sinon.replace(fs, 'writeFile', (_filePath, _data, _options, cb) => cb());
+      await writeJsonFile(filePath, data);
+      expect(true).to.be.true('writeJsonFile did not resolve properly');
+    });
+
+    it('should reject Promise if fs.writeFile throws an error', async () => {
+      const expectedError = new Error('Some error');
+      writeFileStub.restore();
+      sinon.replace(fs, 'writeFile', (_filePath, _data, _options, cb) => cb(expectedError));
+
+      try {
+        await writeJsonFile(filePath, data);
+      } catch (actualError) {
+        expect(actualError.message).to.be.eql(expectedError.message);
+      }
     });
   });
 };
